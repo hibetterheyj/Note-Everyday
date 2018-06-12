@@ -10,7 +10,6 @@
 - [Robust object tracking using a sparse coadjutant observation model | SpringerLink](https://link.springer.com/article/10.1007/s11042-018-6132-0)
 - [Bio-inspired soft robotics: Material selection, actuation, and design](https://www.sciencedirect.com/science/article/pii/S2352431617302316)
 - <https://arxiv.org/pdf/1806.00942.pdf>
-- [A robot demonstration method based on LWR and Q-learning algorithm - IOS Press](https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs169564)
 - [Sensing pipes of a nuclear power mechanism using low-cost snake robot - Chiung-Wei Huang, Chung-Hao Huang, Yu-Hsiang Hung, Cheng-Yuan Chang, 2018](http://journals.sagepub.com/doi/full/10.1177/1687814018781286)
 
 ####  180603
