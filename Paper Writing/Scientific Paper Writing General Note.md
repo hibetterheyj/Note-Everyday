@@ -13,7 +13,7 @@
 - 豆列：[**学术写作 Academic Writing**](https://www.douban.com/doulist/3016518/)
 
 - 《如何成为学术论文写作高手》 北京大学出版社
-- Science Research Writing　For Non-native Speakers of English　帝国理工
+- Science Research Writing For Non-native Speakers of English　帝国理工
 
 
 ####　[英语学术论文写作中有哪些常见问题？](https://zhuanlan.zhihu.com/p/28273690)
