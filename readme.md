@@ -22,7 +22,7 @@ PPT文件夹按照对应主题每周进行整理。
 | ------ | ----- | ------------------------------------------------------------ | --------------------------- | ------------------------------------------------------------ |
 | 191212 | OT    | Zhang Y., et al. Learning regression and verification networks for long-term visual tracking. | ECCVworkshop; arxiv         | **MBMD** [[pdf](https://arxiv.org/pdf/1809.04320.pdf), [code](https://github.com/xiaobai1217/MBMD)] |
 |        | MIP   | Litjens, G., et al. A survey on deep learning in medical image analysis. | Medical Image Analysis 2017 |                                                              |
-| 191213 | DL    |                                                              |                             |                                                              |
+| 191213 | DL    | Ronneberger et al. U-Net: Convolutional Networks for Biomedical Image Segmentation | MICCAI 2015                 | **U-Net** [[code-caffe](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net), [project](https://lmb.informatik.uni-freiburg.de/resources/opensource/unet.en.html)] |
 ### 2.4 其他领域
 
 ## 3 幻灯片 | PPT(每周更新)
