@@ -5,13 +5,19 @@
 
 ## 1 算法 | alogorithms
 
-
+| Date   | Paper                                                        | Published in        | Others                                                       |
+| ------ | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
+| 191212 | Zhang Y., et al. Learning regression and verification networks for long-term visual tracking. | ECCVworkshop; arxiv | **MBMD** [[pdf](https://arxiv.org/pdf/1809.04320.pdf), [code](https://github.com/xiaobai1217/MBMD)] |
 
 ## 2 数据集 | datasets
 
-
+| Date | Paper | Published in | Others |
+| ---- | ----- | ------------ | ------ |
+|      |       |              |        |
 
 ## 3 综述 | review
 
-
+| Date | Paper | Published in | Others |
+| ---- | ----- | ------------ | ------ |
+|      |       |              |        |
 
