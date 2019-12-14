@@ -46,3 +46,28 @@ a network in a sliding-window setup to predict the class label of each pixel by 
 We demonstrate the application of the u-net to three different segmentation tasks, EM segmentation challenge, ISBI cell tracking challenge 2014 and 2015.
 
 主要在三个数据集上进行测试，在速度和精度都取得很大进步。
+
+---
+
+### 3D U-Net: C¸ i¸cek2016MICCAI
+
+> 架构类文章
+> C¸ i¸cek et al. 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation
+
+#### 面临问题：
+
+- Volumetric data is abundant in biomedical data analysis. Annotation of such data with segmentation labels causes difficulty
+- 在生物医疗图像中，体素信息非常丰富，但是标注异常困难。因此使用完全标注的三维图像得到训练数据，非常不可行。
+
+#### 解决方法：
+
+- 使用少量分割数据，来生成整体稠密的分割结果
+- 使用完全新颖的3D架构，3维信息作为输入，然后中间设计的操作也都是三维 the network proposed in this paper takes 3D volumes as input and processes them with corresponding 3D operations, in particular, 3D convolutions, 3D max pooling, and 3D up-convolutional layers.
+- 与U-Net不同的是，在3dmaxpooling丢失信息前的3dconv先进行维度扩增（扩增回路则是使用反操作，先压缩维度卷积再3dmaxpooling），来实现avoid bottlenecks in the network architecture 
+- 使用BN层来加速训练时的收敛 se batch normalization [4] for faster convergence
+- 同样使用特别设计的 weighted loss function 
+- 结合特殊数据增广形式 （apply a smooth dense deformation field on both data and ground truth labels），然后相关数据使用的插值方法为：B-spline interpolation
+
+#### 实验：
+
+最后实验部分，分别进行了Semi-Automated Segmentation半标注分割，通过进行少数的标注，实现整个三维结构的分割；同时也进行了Full-Automated Segmentation全自动分割，通过再小数据集上训练，以实现在大数据集上的泛化。
