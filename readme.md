@@ -25,6 +25,7 @@ PPT文件夹按照对应主题每周进行整理。
 | 191213 | DL    | Ronneberger O., et al. U-Net: Convolutional Networks for Biomedical Image Segmentation | MICCAI2015                  | **U-Net** [[code-caffe](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net), [project](https://lmb.informatik.uni-freiburg.de/resources/opensource/unet.en.html)] |
 | 191214 | DL    | C¸ i¸cek O., et al. 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation | MICCAI2016                  | [[project](https://lmb.informatik.uni-freiburg.de/resources/opensource/unet.en.html)] |
 |        | OT    | Valmadre J., et al. End-to-end representation learning for Correlation Filter based tracking | CVPR2017                    | **CFNet** [[code](https://github.com/bertinetto/cfnet), [project](http://www.robots.ox.ac.uk/~luca/cfnet.html)] |
+|        | DL    | Milletari F., et al. V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation | 3DV2016                     | **V-Net**                                                    |
 ### 2.4 其他领域
 
 ## 3 幻灯片 | PPT(每周更新)
