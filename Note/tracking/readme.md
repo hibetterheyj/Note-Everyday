@@ -8,6 +8,7 @@
 | Date   | Paper                                                        | Published in        | Others                                                       |
 | ------ | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
 | 191212 | Zhang Y., et al. Learning regression and verification networks for long-term visual tracking. | ECCVworkshop; arxiv | **MBMD** [[pdf](https://arxiv.org/pdf/1809.04320.pdf), [code](https://github.com/xiaobai1217/MBMD)] |
+| 191214 | Valmadre J., et al. End-to-end representation learning for Correlation Filter based tracking | CVPR2017            | **CFNet** [[code](https://github.com/bertinetto/cfnet), [project](http://www.robots.ox.ac.uk/~luca/cfnet.html)] |
 
 ## 2 数据集 | datasets
 

@@ -5,7 +5,7 @@
 >  跟踪方法类文章
 >  Zhang Y., et al. Learning regression and verification networks for long-term visual tracking. arxiv.
 
-#### 解决问题：
+#### 现有问题：
 
 Compared with short-term tracking, the long-term tracking task requires **determining the tracked object is present or absent**, and then estimating the accurate bounding box if present or **conducting image-wide re-detection if absent**.
 
@@ -35,3 +35,34 @@ First, the frame length in long- term benchmarks is almost ten times longer than
 tracker achieves the best performance on the **VOT2018 long-term challenge** and state-of-the-art results on the **OxUvA long-term dataset**
 
 在VOT-2018 LTB35与OxUvA分别进行实验分析，分别试用了一下用于长时跟踪比较特别的分析指标（来自OxUvA）。使用LTB35进行了消融实验，证明原方法的有效性。
+
+### CFNet: Valmadre17CVPR
+
+> Valmadre J., et al. End-to-end representation learning for Correlation Filter based tracking
+
+#### 现有问题：
+
+- 尽管深度学习在视觉任务上取得重要表现，但是由于目标跟踪人物的特殊性，仅有第一帧为准确的先验信息，因此对于分类会造成很大的困难（lack of a-priori knowledge of the target ob- ject, which can be of any class）
+
+- 一种解决方案是采用在线结合SGD进行参数更新，但是因为训练样本少+SGD更新速度慢不适用少样本，试试更新的场景
+- 另外一种解决方案就是直接采用不在线更新的网络作为编码目标的描述子，但是相对固定的metric无法应对多变的环境
+- 还有一种方法就是结合现有轻量化的CF框架，通过特别的性质实现在频域求解岭回归问题，以实现判别器的动态更新
+- 因此引出已有的方法仅仅是在CF框架下简单利用CNN特征，而本文希望通过将CF作为内嵌的一个层来同时实现较为高效的在线学习和CNN特征高判别力的特征。
+
+#### 解决方法：
+
+- 原有Siamese网络架构是直接采用特征表达之后项目循环相关得到最大值来进行响应最高值的判定，训练过程则是输入样本x，较大搜索与z‘，然后结合pixel-wise的logistics二分类进行训练
+
+$g_{\rho}\left(x^{\prime}, z^{\prime}\right)=f_{\rho}\left(x^{\prime}\right) \star f_{\rho}\left(z^{\prime}\right)$
+
+- 现有方法则是希望结合CF架构，然后求解除滤波器w，在得到最终的响应
+
+$h_{\rho, s, b}\left(x^{\prime}, z^{\prime}\right)=s \omega\left(f_{\rho}\left(x^{\prime}\right)\right) \star f_{\rho}\left(z^{\prime}\right)+b$
+
+- 3.4 节即对于求解目标函数的过程
+
+`具体过程待补充`
+
+#### 实验：
+
+最后在OTB与VOT上进行实验，相比于SiamFC有很大的表现提升。

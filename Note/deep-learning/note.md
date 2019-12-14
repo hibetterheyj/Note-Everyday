@@ -3,7 +3,7 @@
 ### U-Net: Ronneberger2015MICCAI
 
 >  架构类文章
->  Ronneberger et al. U-Net: Convolutional Networks for Biomedical Image Segmentation
+>  Ronneberger O., et al. U-Net: Convolutional Networks for Biomedical Image Segmentation
 
 #### 面临问题：
 
@@ -52,7 +52,7 @@ We demonstrate the application of the u-net to three different segmentation task
 ### 3D U-Net: C¸ i¸cek2016MICCAI
 
 > 架构类文章
-> C¸ i¸cek et al. 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation
+> C¸ i¸cek O., et al. 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation
 
 #### 面临问题：
 
