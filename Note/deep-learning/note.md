@@ -1,23 +1,4 @@
-<style TYPE="text/css">
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-</style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
-    }
-});
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
-
-# Deep learning
+## Deep learning
 
 [toc]
 
@@ -136,10 +117,15 @@ $D=\frac{2 \sum_{i}^{N} p_{i} g_{i}}{\sum_{i}^{N} p_{i}^{2}+\sum_{i}^{N} g_{i}^{
 
 - 参数量对比，由于主要使用1x1的卷积代替之前一步的3x3卷积，总体参数计算量约为原来的1/8~1/9：
 
-$\dfrac{D_{K} \cdot D_{K} \cdot M \cdot D_{F} \cdot D_{F}+M \cdot N \cdot D_{F} \cdot D_{F}}{D_{K} \cdot D_{K} \cdot M \cdot N \cdot D_{F} \cdot D_{F}}$
-$=\dfrac{1}{N}+\dfrac{1}{D_{K}^{2}}$
+$\dfrac{D_{K} \cdot D_{K} \cdot M \cdot D_{F} \cdot D_{F}+M \cdot N \cdot D_{F} \cdot D_{F}}{D_{K} \cdot D_{K} \cdot M \cdot N \cdot D_{F} \cdot D_{F}}=\dfrac{1}{N}+\dfrac{1}{D_{K}^{2}}$
+
+- 引入宽度乘子$ \alpha $来实现更窄的网络以进行维度的压缩
+- 引入分辨率乘子$ \rho $来实现更窄的网络以进行输入图像分辨率缩减
 
 #### 实验：
+
+- 自身实验：与常规卷积，浅层网络，以及不同大小的宽度/分辨率因子进行充分实验，证明采用更瘦的网络可以比更浅的网络取得更好的效果（making MobileNets thinner is 3% better than making them shallower.）
+- 数据集实验：在几个应用数据集/网络架构上进一步测试：Fine Grained Recognition——Stanford Dogs dataset，Large Scale Geolocalizaton——PlaNet，Object Detection——COCO object detection，Face Embeddings——FaceNet
 
 ---
 
@@ -153,3 +139,4 @@ $=\dfrac{1}{N}+\dfrac{1}{D_{K}^{2}}$
 #### 解决方法：
 
 #### 实验：
+
