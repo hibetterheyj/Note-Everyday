@@ -20,12 +20,15 @@ PPT文件夹按照对应主题每周进行整理。
 
 | Date   | Field | Paper                                                        | Published in                | Others                                                       |
 | ------ | ----- | ------------------------------------------------------------ | --------------------------- | ------------------------------------------------------------ |
-| 191212 | OT    | Zhang Y., et al. Learning regression and verification networks for long-term visual tracking. | ECCVworkshop; arxiv         | **MBMD** [[pdf](https://arxiv.org/pdf/1809.04320.pdf), [code](https://github.com/xiaobai1217/MBMD)] |
+| 191212 | OT    | Zhang Y., et al. Learning regression and verification networks for long-term visual tracking. | ECCVworkshop; arxiv2018     | **MBMD** [[pdf](https://arxiv.org/pdf/1809.04320.pdf), [code](https://github.com/xiaobai1217/MBMD)] |
 |        | MIP   | Litjens, G., et al. A survey on deep learning in medical image analysis. | Medical Image Analysis 2017 |                                                              |
 | 191213 | DL    | Ronneberger O., et al. U-Net: Convolutional Networks for Biomedical Image Segmentation | MICCAI2015                  | **U-Net** [[code-caffe](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net), [project](https://lmb.informatik.uni-freiburg.de/resources/opensource/unet.en.html)] |
 | 191214 | DL    | C¸ i¸cek O., et al. 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation | MICCAI2016                  | [[project](https://lmb.informatik.uni-freiburg.de/resources/opensource/unet.en.html)] |
-|        | OT    | Valmadre J., et al. End-to-end representation learning for Correlation Filter based tracking | CVPR2017                    | **CFNet** [[code](https://github.com/bertinetto/cfnet), [project](http://www.robots.ox.ac.uk/~luca/cfnet.html)] |
+|        | OT    | Valmadre J., et al. End-to-end representation learning for Correlation Filter based tracking | CVPR2017                    | **CFNet** [[code-matlab](https://github.com/bertinetto/cfnet), [project](http://www.robots.ox.ac.uk/~luca/cfnet.html)] |
 |        | DL    | Milletari F., et al. V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation | 3DV2016                     | **V-Net**                                                    |
+| 191217 | DL    | Howard A., et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | arxiv2017                   | **MobileNetV1** [[code-pytorch](https://github.com/marvis/pytorch-mobilenet)] |
+|        | DL    | Sandler M., et al. MobileNetV2: Inverted Residuals and Linear Bottlenecks | CVPR2018                    | **MobileNetV2** [[code-pytorch](https://github.com/tonylins/pytorch-mobilenet-v2), [official-code-pytorch](https://github.com/pytorch/vision/blob/bce17fddd4/torchvision/models/mobilenet.py)] |
+|        | DL    | Howard A., et al. Searching for MobileNetV3                  | arxiv2019                   | **MobileNetV3** [[code-pytorch1](https://github.com/kuan-wang/pytorch-mobilenet-v3), [code-pytorch2](https://github.com/xiaolai-sqlai/mobilenetv3)] |
 ### 2.4 其他领域
 
 ## 3 幻灯片 | PPT(每周更新)

@@ -10,6 +10,9 @@
 | 191213 | Ronneberger O., et al. U-Net: Convolutional Networks for Biomedical Image Segmentation | MICCAI 2015  | **U-Net** [[code-caffe](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net), [project](https://lmb.informatik.uni-freiburg.de/resources/opensource/unet.en.html)] |
 | 191214 | C¸ i¸cek O., et al. 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation | MICCAI 2016  | **3D U-Net** [[project](https://lmb.informatik.uni-freiburg.de/resources/opensource/unet.en.html)] |
 |        | Milletari F., et al. V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation | 3DV2016      | **V-Net**                                                    |
+| 191217 | Howard A., et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | arxiv2017    | **MobileNetV1** [[code-pytorch](https://github.com/marvis/pytorch-mobilenet)] |
+|        | Sandler M., et al. MobileNetV2: Inverted Residuals and Linear Bottlenecks | CVPR2018     | **MobileNetV2** [[code-pytorch](https://github.com/tonylins/pytorch-mobilenet-v2), [official-code-pytorch](https://github.com/pytorch/vision/blob/bce17fddd4/torchvision/models/mobilenet.py)] |
+|        | Howard A., et al. Searching for MobileNetV3                  | arxiv2019    | **MobileNetV3** [[code-pytorch1](https://github.com/kuan-wang/pytorch-mobilenet-v3), [code-pytorch2](https://github.com/xiaolai-sqlai/mobilenetv3)] |
 
 ## 2 理论研究 | survey
 
