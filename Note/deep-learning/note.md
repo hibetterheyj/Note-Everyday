@@ -1,4 +1,25 @@
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
+
 # Deep learning
+
+[toc]
 
 ### U-Net: Ronneberger2015MICCAI
 
@@ -76,6 +97,7 @@ We demonstrate the application of the u-net to three different segmentation task
 
 ### V-Net: Milletari20163DV
 
+> 架构类文章
 > Milletari F., et al. V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation, 3DV2016
 
 #### 面临问题：
@@ -97,3 +119,37 @@ $D=\frac{2 \sum_{i}^{N} p_{i} g_{i}}{\sum_{i}^{N} p_{i}^{2}+\sum_{i}^{N} g_{i}^{
 #### 实验：
 
 最后实验部分，分别进行了Semi-Automated Segmentation半标注分割，通过进行少数的标注，实现整个三维结构的分割；同时也进行了Full-Automated Segmentation全自动分割，通过再小数据集上训练，以实现在大数据集上的泛化。
+
+### MobileNetV1: Howard2017arxiv
+
+> 架构类文章
+> Howard A., et al. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
+
+#### 面临问题：
+
+提出了一种适用于移动端地神经网络架构，并且引入两个超参数用于实现在时间延迟与准确率上的权衡
+
+#### 解决方法：
+
+- 相比使用缩小/分解/压缩已有网络或者使用知识蒸馏（使用大型网络协助训练小网络）的方达，本文借鉴了在Inception中所使用的 depthwise separable convolutions，提出一种全新的架构进行小网络训练。
+- 主要包括depth-wise卷积（对应PyTorch中`nn.Conv2d`中`groups=input_channels`的概念）以及1x1的point-wise卷积操作进行组合8
+
+- 参数量对比，由于主要使用1x1的卷积代替之前一步的3x3卷积，总体参数计算量约为原来的1/8~1/9：
+
+$\dfrac{D_{K} \cdot D_{K} \cdot M \cdot D_{F} \cdot D_{F}+M \cdot N \cdot D_{F} \cdot D_{F}}{D_{K} \cdot D_{K} \cdot M \cdot N \cdot D_{F} \cdot D_{F}}$
+$=\dfrac{1}{N}+\dfrac{1}{D_{K}^{2}}$
+
+#### 实验：
+
+---
+
+### Template: NAME: {authoname}+{year}+{conference/journal}
+
+> 架构/综述类文章
+> {引用格式}
+
+#### 面临问题：
+
+#### 解决方法：
+
+#### 实验：
