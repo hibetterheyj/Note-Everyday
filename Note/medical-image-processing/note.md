@@ -2,7 +2,33 @@
 
 # Medical image processing
 
+### Litjens2012MICCAI
+
+> 数据集和方法类文章
+> Litjens, G., et al. A pattern recognition approach to zonal segmentation of the prostate on MRI, MICCAI 2015
+
+#### 面临问题：
+
+- 分割prostate的中心腺体和周围区域可以为后续的检测和医疗诊断起重要作用
+- 现有模式识别方法有所局限
+
+#### 解决方法：
+
+- 结合包括解剖学(也即位置），强度和纹理信息进行分割
+- 同时使用T2-W image 与 ADC (apparent diffusion coefficient) map
+  - T2-weighted scan (resolution 0.6x0.6x4 mm)
+  - ADC map (2x2x4 mm)
+
+#### 实验：
+
+- 在48个MRI案例上进行分析，相比目前学界的方法有所提升
+
+---
+
 ### nnUNet_Isensee2018arxiv
+
+> 架构类文章
+> Isensee F., et al. nnU-Net: Self-adapting Framework for U-Net-Based Medical Image Segmentation, arxiv 2018
 
 #### 现有问题
 
@@ -161,3 +187,17 @@ $D=\frac{2 \sum_{i}^{N} p_{i} g_{i}}{\sum_{i}^{N} p_{i}^{2}+\sum_{i}^{N} g_{i}^{
 #### 展望：
 
 `未完待续`
+
+---
+
+### Template: NAME: {authoname}+{year}+{conference/journal}
+
+> 架构/综述类文章
+> {引用格式}
+
+#### 面临问题：
+
+#### 解决方法：
+
+#### 实验：
+
