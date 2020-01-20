@@ -1,8 +1,10 @@
 
 
-# Paper-Everyday
+# Note-Everyday
 
 本项目是自己对于RO/CV领域一些论文的链接汇总和相关论文的学习笔记。
+
+❗ 增加相关讲义课程的笔记
 
 文章均采用Markdown格式书写，公式使用LATEX编辑。
 
