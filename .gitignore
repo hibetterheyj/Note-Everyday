@@ -8,3 +8,6 @@ Slides_Note/TUM_MVG/*.bat
 Slides_Note/TUM_MVG/*.bat
 Slides_Note/THU_DS/
 Slides_Note/UCAS_Courses/
+
+# Jupyter Notebook
+*.ipynb_checkpoints
