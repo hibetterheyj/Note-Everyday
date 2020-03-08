@@ -35,6 +35,7 @@ Unmanned aerial vehicle, Robot vision, Object tracking (OT), Deep learning (DL),
 |    Period     | Course                                                       |                             Note                             |
 | :-----------: | ------------------------------------------------------------ | :----------------------------------------------------------: |
 | 20.01-present | [Multiple View Geometry](https://vision.in.tum.de/teaching/ss2016/mvg2016) by [Prof. Daniel Cremers](https://vision.in.tum.de/members/cremers) @ TUM | [web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/TUM_MVG) |
+| 20.03-present | [Data Structure and Algorithm](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) by Prof. Junhui Deng @ THU | [web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) |
 
 ## 4 参考 | Reference
 
