@@ -14,7 +14,14 @@
 
 Unmanned aerial vehicle, Robot vision, Object tracking (OT), Deep learning (DL), Medical image processing (MIP)
 
-## 2 论文笔记 | Paper notes
+## 2 讲义笔记 | Slide notes
+
+|    Period     | Course                                                       |                             Note                             |
+| :-----------: | ------------------------------------------------------------ | :----------------------------------------------------------: |
+| 20.01-present | [Multiple View Geometry](https://vision.in.tum.de/teaching/ss2016/mvg2016) by [Prof. Daniel Cremers](https://vision.in.tum.de/members/cremers) @ TUM | [Web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/TUM_MVG) |
+| 20.03-present | [Data Structure and Algorithm](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) by Prof. Junhui Deng @ THU | [**Pages on Notion!**](https://www.notion.so/yujiehe/MOOC-84fe15abaef34580bc9adc0b3ea650e7) |
+
+## 3 论文笔记 | Paper notes
 
 | Date   | Field | Paper                                                        | Published in                | Others                                                       |
 | ------ | ----- | ------------------------------------------------------------ | --------------------------- | ------------------------------------------------------------ |
@@ -29,13 +36,6 @@ Unmanned aerial vehicle, Robot vision, Object tracking (OT), Deep learning (DL),
 |        | DL    | Howard A., et al. Searching for MobileNetV3                  | arxiv 2019                  | **MobileNetV3** [[code-pytorch1](https://github.com/kuan-wang/pytorch-mobilenet-v3), [code-pytorch2](https://github.com/xiaolai-sqlai/mobilenetv3)] |
 | 191230 | MIP   | Isensee F., et al. nnU-Net: Self-adapting Framework for U-Net-Based Medical Image Segmentation | arxiv 2018                  | **nnU-Ne**t [[pdf](https://arxiv.org/pdf/1809.10486.pdf)]    |
 | 200103 |       | Litjens, G., et al. A pattern recognition approach to zonal segmentation of the prostate on MRI | MICCAI 2012                 |                                                              |
-
-## 3 讲义笔记 | Slide notes
-
-|    Period     | Course                                                       |                             Note                             |
-| :-----------: | ------------------------------------------------------------ | :----------------------------------------------------------: |
-| 20.01-present | [Multiple View Geometry](https://vision.in.tum.de/teaching/ss2016/mvg2016) by [Prof. Daniel Cremers](https://vision.in.tum.de/members/cremers) @ TUM | [web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/TUM_MVG) |
-| 20.03-present | [Data Structure and Algorithm](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) by Prof. Junhui Deng @ THU | [web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) |
 
 ## 4 参考 | Reference
 
