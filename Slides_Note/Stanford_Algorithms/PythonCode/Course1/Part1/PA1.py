@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar 17 19:21:42 2020
-
 Solution for PA#1
 """
 

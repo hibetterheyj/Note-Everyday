@@ -21,3 +21,5 @@ So: what's the product of the following two 64-digit numbers?
 The numeric answer should be typed in the space below. So if your answer is 1198233847, then just type 1198233847 in the space provided without any space / commas / any other punctuation marks.
 
 (We do not require you to submit your code, so feel free to use any programming language you want --- just type the final numeric answer in the following space.)
+
+**Answer: 8540949225879186025188237673984429044922617975280638234053975358749340744030797651711030039061490620316709044812623239994423184**

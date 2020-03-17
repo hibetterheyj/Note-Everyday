@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-@author: HYJ
+Solution for PA#2
 
-modified from Merge Sort
+# reference
+1. 用python从txt文件中读入数据
+https://blog.csdn.net/LCCFlccf/article/details/82683725
 """
+import time
 
 ## Merge Sort adding Count
 def merge(left, right):
@@ -44,8 +47,20 @@ def sortCount(array):
     array, mergeInv = merge(left, right)
     count = leftInv+rightInv+mergeInv
     return array, count
-    
-originArray = eval(input('input an array: '))
-_, Inversions = sortCount(originArray)
 
-print('Array {} has {} Inversions.'.format(originArray, Inversions))
+file_name = "IntegerArray.txt"
+num = []
+file = open(file_name, mode='r')
+for line in file:
+    line = line.split()
+    num.append(eval(line[0])) # 每一行类似是 ['1.1']
+file.close()
+txtnum = len(num)
+
+originArray = num
+start = time.clock()
+_, Inversions = sortCount(originArray)
+end = time.clock()
+
+print('Origin array with {} numbers has {} inversions.'.format(txtnum, Inversions))
+print('It takes {} sec to count'.format(end-start))
