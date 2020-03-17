@@ -45,11 +45,11 @@ def bruteForceMulti(num1, num2):
     return z1 * pow(10, maxLen) + z3 * pow(10, maxLen//2) + z2
 
 # For Coursera
-x = 3141592653589793238462643383279502884197169399375105820974944592
-y = 2718281828459045235360287471352662497757247093699959574966967627
+# x = 3141592653589793238462643383279502884197169399375105820974944592
+# y = 2718281828459045235360287471352662497757247093699959574966967627
 # For General Purpose
-# x = int(input('num1: '))
-# y = int(input('num2: '))
+x = int(input('num1: '))
+y = int(input('num2: '))
 ## Karatsuba Multiplication
 start1 = time.clock()
 xy1 = karatsubaMulti(x, y)
