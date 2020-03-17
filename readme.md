@@ -20,6 +20,7 @@ Unmanned aerial vehicle, Robot vision, Object tracking (OT), Deep learning (DL),
 | :-----------: | ------------------------------------------------------------ | :----------------------------------------------------------: |
 | 20.01-present | [Multiple View Geometry](https://vision.in.tum.de/teaching/ss2016/mvg2016) by [Prof. Daniel Cremers](https://vision.in.tum.de/members/cremers) @ TUM | [Web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/TUM_MVG) |
 | 20.03-present | [Data Structure and Algorithm](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) by Prof. Junhui Deng @ THU | [**Pages on Notion!**](https://www.notion.so/yujiehe/MOOC-84fe15abaef34580bc9adc0b3ea650e7) |
+| 20.03-present | [Algorithm Specialization](https://www.coursera.org/specializations/algorithms) by Prof. Tim Roughgarden @ Stanford | [**Pages on Notion!**](https://www.notion.so/yujiehe/Design-and-Analysis-of-Algorithms-1d653b6db5ad4b0e8c365559c403bd30) |
 
 ## 3 论文笔记 | Paper notes
 
