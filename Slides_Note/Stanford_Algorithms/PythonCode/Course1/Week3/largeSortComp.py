@@ -2,6 +2,9 @@
 """
 @author: HYJ
 """
+
+import random
+import math
 import time
 
 ## MergeSort
@@ -91,27 +94,63 @@ def quickSort(array):
     sortedArray.extend(hi)
     return sortedArray
 
-# 可以将输入直接转列表
-originArray = eval(input('input an array: '))
+## In-place Quick Sort with Randomization
+def myRandomInt(lo, hi):
+    return lo + math.floor(random.random()*(hi-lo))
+
+def partitionRandom(array):
+    arrayLen = len(array)
+    randomPivot = myRandomInt(0, arrayLen)
+    array[randomPivot], array[0] = array[0], array[randomPivot]
+    pivotIndex = 0
+    storeIndex = 0
+    pivot = array[:pivotIndex+1]
+    for i in range(storeIndex+1, arrayLen):
+        if array[i] < array[pivotIndex]:
+            storeIndex += 1
+            array[i], array[storeIndex] = array[storeIndex], array[i]
+    array[storeIndex], array[pivotIndex] = array[pivotIndex], array[storeIndex]
+    lo = array[:storeIndex]
+    hi = array[storeIndex+1:]
+    return lo, hi, pivot
+
+def quickSortRandom(array):
+    sortedArray = []
+    arrayLen = len(array)
+    if arrayLen <= 1:
+        return array
+    if arrayLen == 2:
+        if array[1] < array[0]:
+            array[0], array[1] = array[1], array[0]
+        return array
+    lo, hi, pivot = partitionRandom(array)
+    lo = quickSortRandom(lo)
+    hi = quickSortRandom(hi)
+    sortedArray = lo
+    sortedArray.extend(pivot)
+    sortedArray.extend(hi)
+    return sortedArray
+
+file_name = "IntegerArray.txt"
+num = []
+file = open(file_name, mode='r')
+for line in file:
+    line = line.split()
+    num.append(eval(line[0])) # 每一行类似是 ['1.1']
+file.close()
 
 start1 = time.clock()
-sortedArray1 = mergeSort(originArray)
+sortedArray1 = quickSort(num)
 end1 = time.clock()
 
 start2 = time.clock()
-sortedArray2 = selectionSort(originArray)
+sortedArray2 = mergeSort(num)
 end2 = time.clock()
 
-start3 = time.clock()
-sortedArray3 = selectionSort(originArray)
-end3 = time.clock()
+print('Result equals or not? {}'.format(sortedArray1 == sortedArray2))
+print('In-place Quick Sort takes {} sec'.format(end1-start1))
+print('Merge Sort takes {} sec'.format(end2-start2))
+#print('Selection Sort takes {} sec'.format(end1-start1))
+#print('Bubble Sort takes {} sec'.format(end3-start3))
+#print('Quick Sort takes {} sec'.format(end3-start3))
 
-start4 = time.clock()
-sortedArray4 = quickSort(originArray)
-end4 = time.clock()
-
-print('Sorted array is {}'.format(sortedArray4))
-print('Merge Sort takes {} sec'.format(end1-start1))
-print('Selection Sort takes {} sec'.format(end2-start2))
-print('Bubble Sort takes {} sec'.format(end3-start3))
-print('Quick Sort takes {} sec'.format(end3-start3))
