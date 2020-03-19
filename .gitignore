@@ -9,6 +9,7 @@ Slides_Note/TUM_MVG/*.bat
 Slides_Note/THU_DS/Slides/
 Slides_Note/UCAS_Courses/
 Slides_Note/Stanford_Algorithms/Slides/
+Slides_Note/Stanford_Algorithms/Reference/
 
 # Jupyter Notebook
 *.ipynb_checkpoints
