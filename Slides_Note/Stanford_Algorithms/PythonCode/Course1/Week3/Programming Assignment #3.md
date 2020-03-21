@@ -1,6 +1,6 @@
 ## Programming Assignment #3
 
-![Partition](G:\#Note-Everyday\Slides_Note\Stanford_Algorithms\PythonCode\Course1\Week3\Partition.png)
+![Partition](./Partition.png)
 
 **TOTAL POINTS 3**
 
