@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
+Randomnized Selection
 @author: HYJ
 """
 
 import math
 
-## Randomnized Selection
 def partition(array):
     pivotIndex = 0
     storeIndex = 0
@@ -56,19 +56,19 @@ def RSelect(array, length, order):
         return RSelect(array[storeIndex+1:], length-storeIndex-1, order-storeIndex-1)
 
 
-#file_name = "QuickSort.txt"
-#num = []
-#file = open(file_name, mode='r')
-#for line in file:
-#    line = line.split()
-#    num.append(eval(line[0])) # 每一行类似是 ['1.1']
-#file.close()
-#order = 10000
+file_name = "QuickSort.txt"
+array = []
+file = open(file_name, mode='r')
+for line in file:
+    line = line.split()
+    array.append(eval(line[0])) # 每一行类似是 ['1.1']
+file.close()
+order = 1000
 
-num = [3,6,5,4]
-order = 4
+#array = [3,6,5,4]
+#order = 4
 #originArray = eval(input('Input array: '))
 
 
-num = RSelect(num, len(num),order)
+num = RSelect(array, len(array), order)
 print('No.{} in the array is {}'.format(order, num))
