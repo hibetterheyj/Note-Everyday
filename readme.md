@@ -14,11 +14,11 @@ Unmanned aerial vehicle, Robot vision, Object tracking (OT), Deep learning (DL),
 
 ## 2 讲义笔记 | Slide notes
 
-|    Period     | Course                                                       |                             Note                             | Implementation                                               |
-| :-----------: | ------------------------------------------------------------ | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| 20.01-present | [Multiple View Geometry](https://vision.in.tum.de/teaching/ss2016/mvg2016) by [Prof. Daniel Cremers](https://vision.in.tum.de/members/cremers) @ TUM | [Web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/TUM_MVG) | N/A                                                          |
-| 20.03-present | [Data Structure and Algorithm](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) by Prof. Junhui Deng @ THU | [**Pages on Notion!**](https://www.notion.so/yujiehe/MOOC-84fe15abaef34580bc9adc0b3ea650e7) | N/A                                                          |
-| 20.03-present | [Algorithm Specialization](https://www.coursera.org/specializations/algorithms) by Prof. Tim Roughgarden @ Stanford | [**Pages on Notion!**](https://www.notion.so/yujiehe/Divide-and-Conquer-Sorting-and-Searching-and-Randomized-Algorithms-1d653b6db5ad4b0e8c365559c403bd30) | [**Code for Course1**](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/Stanford_Algorithms/PythonCode/Course1) |
+|    Period     | Course                                                       |                             Note                             | Implementation                                               | Status      |
+| :-----------: | ------------------------------------------------------------ | :----------------------------------------------------------: | ------------------------------------------------------------ | ----------- |
+| 20.01-present | [Multiple View Geometry](https://vision.in.tum.de/teaching/ss2016/mvg2016) by [Prof. Daniel Cremers](https://vision.in.tum.de/members/cremers) @ TUM | [Web](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/TUM_MVG) | N/A                                                          | In progress |
+| 20.03-present | [Data Structure and Algorithm](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/THU_DS) by Prof. Junhui Deng @ THU | [**Pages on Notion!**](https://www.notion.so/yujiehe/MOOC-84fe15abaef34580bc9adc0b3ea650e7) | N/A                                                          | Archived    |
+| 20.03-present | [Algorithm Specialization](https://www.coursera.org/specializations/algorithms) by Prof. Tim Roughgarden @ Stanford | [**Pages on Notion!**](https://www.notion.so/yujiehe/Divide-and-Conquer-Sorting-and-Searching-and-Randomized-Algorithms-1d653b6db5ad4b0e8c365559c403bd30) | [**Code for Course1**](https://github.com/hibetterheyj/Note-Everyday/tree/master/Slides_Note/Stanford_Algorithms/PythonCode/Course1) | Finished!   |
 
 ## 3 论文笔记 | Paper notes
 
