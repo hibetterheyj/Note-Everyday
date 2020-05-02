@@ -2,7 +2,7 @@
 """
 modified from https://bradfieldcs.com/algos/graphs/dijkstras-algorithm/
 """
-
+# https://docs.python.org/zh-cn/3/library/heapq.html
 import heapq
 
 """Load graph"""
@@ -14,6 +14,7 @@ def load_graph():
 
 
 def calculate_distances(graph, starting_vertex):
+    # 初始化所有值为无穷大，并且起始点自身为0
     distances = {vertex: float('infinity') for vertex in graph}
     distances[starting_vertex] = 0
 

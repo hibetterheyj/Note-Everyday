@@ -4,7 +4,7 @@
 - [ ] Part2
   - [x] Week1
   - [x] Week2
-  - [ ] Week3
+  - [x] Week3
   - [ ] Week4
 - [ ] Part3
 - [ ] Part4
