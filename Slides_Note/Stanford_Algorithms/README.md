@@ -3,9 +3,17 @@
 - [x] Part1
 - [ ] Part2
   - [x] Week1
+    - [x] Note
+    - [x] Assignment
   - [x] Week2
-  - [x] Week3
+    - [x] Note
+    - [x] Assignment
+  - [ ] Week3
+    - [ ] Note
+    - [x] Assignment
   - [ ] Week4
+    - [ ] Note
+    - [x] Assignment
 - [ ] Part3
 - [ ] Part4
 

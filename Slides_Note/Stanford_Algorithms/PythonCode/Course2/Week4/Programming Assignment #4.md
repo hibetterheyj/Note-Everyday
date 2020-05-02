@@ -19,7 +19,7 @@ OPTIONAL CHALLENGE: If this problem is too easy for you, try implementing your o
 大概的意思就是，计算里面出了-10000到10000这20001个数中的几个数s
 
 ```
-
+427
 ```
 
 ---
